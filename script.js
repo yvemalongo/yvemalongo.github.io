@@ -110,7 +110,7 @@ const mapsData = [
 
   {
     id: 17, categorie: "cartographie", cat_label: "cartographie", annee: "2024",
-    lien: "dakar.jpg",
+    lien: "https://raw.githubusercontent.com/yvemalongo/yvemalongo.github.io/refs/heads/main/dakar.JPG",
     titre: "Evolution spatio temporel Urbaine de la ville de Dakar depuis 1940",
     img: "dakar.jpg",
     outils: "Leaflet.js, JavaScript, OSM",
