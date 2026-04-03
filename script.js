@@ -166,7 +166,7 @@ const mapsData = [
     id: 14, categorie: "webgis", cat_label: "WebGIS", annee: "2025",
     lien: "https://yvemalongo.github.io/interpo/",
     titre: "Carte d'Interpolation cuivre cobalt des données ehantillonnées sur le terrain ",
-    img: "inter.jpg",
+    img: "inter.JPG",
     outils: "Leaflet.js,  OSM , QGIS2WEB, HTML, CSS",
     desc: "Carte web interactive issue d'interpolation des données échantillonnées sur terrains"},
 
