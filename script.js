@@ -101,7 +101,7 @@ const mapsData = [
 {
     id: 16, categorie: "cartographie", cat_label: "cartographie", annee: "2026", lien: "Meise.png",
     titre: "Accessibilité aux espaces verts et aux équipements scolaires dans l’arrondissement de Meise – Vilvoorde – Halle Flandre Brabant Belgium" ,
-    img: "Meise.jpg",
+    img: "Meise.png",
     outils: "OSM, QGIS, ",
     desc: " Cette carte présente une analyse de l’accessibilité aux espaces verts et aux établissements scolaires dans l’arrondissement de Meise, incluant également Vilvoorde et Halle. Elle met en évidence les principales infrastructures de mobilité douce, notamment les pistes cyclables  et les chemins piétons, ainsi que le réseau routier. L’objectif  est d’évaluer la facilité d’accès des populations aux équipements essentiels et aux  espaces de loisirs."  },
     
