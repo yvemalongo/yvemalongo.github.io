@@ -119,7 +119,7 @@ const mapsData = [
 
 {
     id: 17, categorie: "cartographie", cat_label: "cartographie", annee: "2024",
-    lien: "https://github.com/yvemalongo/Analyse_spatiale_avec_geopanda/blob/main/pythongis2.ipynb",
+    lien:  "Pythongis.jpg",
     titre: "Analyse géospatiale avec Python – Kinshasa",
     img: "Pythongis.jpg",
     outils: "Jupyter note, Geopandas, OSM",
