@@ -242,10 +242,29 @@ function initMobileMenu() {
   const links = document.getElementById('navLinks');
   if (!btn || !links) return;
 
-  btn.addEventListener('click', () => links.classList.toggle('open'));
+  btn.addEventListener('click', () => {
+    links.classList.toggle('open');
+    btn.classList.toggle('open'); // anime burger → croix
+    btn.setAttribute('aria-expanded', links.classList.contains('open'));
+  });
+
+  // Ferme le menu au clic sur un lien
   links.querySelectorAll('a').forEach(a =>
-    a.addEventListener('click', () => links.classList.remove('open'))
+    a.addEventListener('click', () => {
+      links.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    })
   );
+
+  // Ferme le menu si on clique en dehors
+  document.addEventListener('click', (e) => {
+    if (!btn.contains(e.target) && !links.contains(e.target)) {
+      links.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
 }
 
 // ── FILTRES ──────────────────────────────────────────────────
@@ -398,3 +417,4 @@ document.addEventListener('DOMContentLoaded', () => {
   initActiveNav();
   initContactForm();
 });
+
