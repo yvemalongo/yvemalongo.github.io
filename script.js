@@ -128,7 +128,15 @@ const mapsData = [
 
 
 
-
+   
+  {
+    id: 161, categorie: "cartographie", cat_label: "cartographie", annee: "2026",
+    lien: "accessibilite.png",
+    titre: " Analyse spatiale de l'accessibilité aux soins de santé – Commune de Matete (Kinshasa, RDC) ",
+    img: "accessibilite.png",
+    outils: "OSM, QGIS, BufferRing ",
+    desc: "Cette carte thématique évalue le niveau de couverture et la proximité géographique des infrastructures de santé au sein de la commune de Matete à Kinshasa. Objectif : Identifier les zones bien desservies et mettre en évidence les déserts médicaux urbains en fonction de la distance à la structure de santé la plus proche.Méthodologie SIG : Génération de zones tampons (buffers multiples) concentriques s'étendant de 150 m  à plus de 1300 m autour des établissements de santé répertoriés. La dégradation progressive des couleurs (du vert pour une excellente accessibilité au rouge pour les zones éloignées) met immédiatement en relief une forte disparité spatiale" 
+   },
 
 
 
